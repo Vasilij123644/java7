@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Калькулятор комплектующих ПК</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="text-header">Комплектующие</span>
+        </div>
+        <div class="processor flex">
+            <img src="img/proc.jpg" alt="processor" class="image">
+            <select name="" id="" class="select-processor">
+                <option selected disabled value="q">Процессор</option>
+                <option value="Intel Core i5-10400" class="processor1">Intel Core i5-10400</option>
+                <option value="Intel Core i5-10500" class="processor2">Intel Core i5-10500</option>
+                <option value="AMD AM4 Ryzen 5 1600" class="processor3">AMD AM4 Ryzen 5 1600</option>
+            </select>
+        </div>
+        <div class="mother flex">
+            <img src="img/mather.jpg" alt="mother" class="image">
+            <select name="" id="" class="select-mother">
+                <option selected disabled value="w">Материнская плата</option>
+                <option value="Gigabyte B550" class="processor1">Gigabyte B550</option>
+                <option value="Asus Prime A520M" class="processor2">Asus Prime A520M</option>
+                <option value="Gigabyte Z690" class="processor3">Gigabyte Z690</option>
+            </select>
+        </div>
+        <div class="RAM flex">
+            <img src="img/Ram.jpg" alt="RAM" class="image">
+            <select name="" id="" class="select-RAM">
+                <option selected disabled value="e">Оперативная память</option>
+                <option value="DDR4 4Gb 3200MHz" class="processor1">DDR4 4Gb 3200MHz</option>
+                <option value="DDR4 8Gb 3200MHz" class="processor2">DDR4 8Gb 3200MHz</option>
+                <option value="DDr4 16Gb 3200MHz" class="processor3">DDr4 16Gb 3200MHz</option>
+            </select>
+        </div>
+        <div class="korpus flex">
+            <img src="img/korpus.jpg" alt="korpus" class="image">
+            <select name="" id="" class="select-korpus">
+                <option selected disabled value="r">Корпус</option>
+                <option value="Thermaltake V200 RGB 120mm" class="processor1">Thermaltake V200 RGB 120mm</option>
+                <option value="Power 200W LC-1402MI" class="processor2">Power 200W LC-1402MI</option>
+                <option value="Deepcool Matrexx 50 ADD RGB" class="processor3">Deepcool Matrexx 50 ADD RGB</option>
+            </select>
+        </div>
+        <div class="block flex">
+            <img src="img/blockPit.jpg" alt="block" class="image">
+            <select name="" id="" class="select-block">
+                <option selected disabled value="t">Блок питания</option>
+                <option value="Thermaltake ATX 630W" class="processor1">Thermaltake ATX 630W</option>
+                <option value="Gigabyte GP 1000W" class="processor2">Gigabyte GP 1000W</option>
+                <option value="Sven HT 1000w" class="processor3">Sven HT 1000w</option>
+            </select>
+        </div>
+        <div class="videoDriver flex">
+            <img src="img/video.jpg" alt="videoDriver" class="image">
+            <select name="" id="" class="select-videoDriver">
+                <option selected disabled value="y">Видеокарта</option>
+                <option value="Gigabyte Radeon RX 6600XT" class="processor1">Gigabyte Radeon RX 6600XT</option>
+                <option value="Gigabyte GeForce RTX 3070 Ti" class="processor2">Gigabyte GeForce RTX 3070 Ti</option>
+                <option value="Gigabyte GeForce GT 1030" class="processor3">Gigabyte GeForce GT 1030</option>
+            </select>
+        </div>
+        <div class="ssd flex">
+            <img src="img/ssd.jpg" alt="" class="image">
+            <select name="" id="" class="select-ssd">
+                <option selected disabled value="u">Твердотельный накопитель</option>
+                <option value="SSD M.2 250Gb" class="processor1">SSD M.2 250Gb</option>
+                <option value="SSD M.2 2Tb" class="processor2">SSD M.2 2Tb</option>
+                <option value="SSD M.2 1Gb" class="processor3">SSD M.2 1Gb</option>
+            </select>
+        </div>
+        <div class="OC flex">
+            <img src="img/oc.jpg" alt="OC" class="image">
+            <select name="" id="" class="select-OC">
+                <option selected disabled value="i">Операционная система</option>
+                <option value="Windows 10 Pro 32/64-bit" class="processor1">Windows 10 Pro 32/64-bit</option>
+                <option value="Windows 10 Home 32/64-bit" class="processor2">Windows 10 Home 32/64-bit</option>
+                <option value="Windows 10 Pro/Home 32/64-bit" class="processor3">Windows 10 Pro/Home 32/64-bit</option>
+            </select>
+        </div>
+        <div class="antivirys flex">
+            <img src="img/ant.jpg" alt="antivirys" class="image">
+            <select name="" id="" class="select-antivirys">
+                <option selected disabled value="o">Антивирус</option>
+                <option value="Dr. Web Security Space" class="processor1">Dr. Web Security Space</option>
+                <option value="Eset NOD32" class="processor2">Eset NOD32</option>
+                <option value="Kaspersky Internet Security" class="processor3">Kaspersky Internet Security</option>
+            </select>
+        </div>
+        <div class="summ flex">
+            <span class="text-summ">Стоимость ПК: </span>
+            <input type="text" class="classs" readonly>
+            <div class="knop">
+                <button class="button">Рассчитать</button>
+                <button class="buttonClear">Очистить</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
